@@ -4,6 +4,7 @@
 
 ## Timeline
 - 2021-04-15 : 프로젝트 시작
+- 2021-04-18 : 모델 구현 완료 및 학습 시작
 
 ## Abstract
 
@@ -61,3 +62,4 @@
 ## 문제점들
 
 - sketch와 colored 이미지의 위치가 바뀌는 경우가 있어서 이미지를 불러올 때 position을 argument로 하여 위치를 지정할 수 있게 했었는데 [tf.Dataset.map](http://tf.Dataset.map) 함수를 적용할 때 arguement를 지정할 수 없어서 map 함수에 lambda 식과 tf.py_function 함수를 이용하여 해결하였다.
+- ~논문에선 VGG의 4번째 layer를 이용해 feature를 추출하여 loss를 계산하는데 모델에서 특정 레이어까지의 결과만 가져오는 방법을 모르겠다.~ 구글링으로 해결
