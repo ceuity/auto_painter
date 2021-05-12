@@ -63,6 +63,17 @@
 
 ![result.gif](./images/result.gif)
 
+## Todo-list
+
+- [ ]  index templates 수정
+    - [ ]  샘플 이미지 수정
+    - [ ]  Input image size 수정
+- [ ]  AWS or GCP 이용하여 배포
+- [ ]  채색된 이미지 스케치 이미지로 바꾸는 기능
+- [ ]  방문자 카운터
+- [ ]  입력 크기 이미지로 출력
+- [ ]  모델 고도화
+
 ## 문제점들
 
 - sketch와 colored 이미지의 위치가 바뀌는 경우가 있어서 이미지를 불러올 때 position을 argument로 하여 위치를 지정할 수 있게 했었는데 tf.Dataset.map함수를 적용할 때 arguement를 지정할 수 없어서 map 함수에 lambda 식과 tf.py_function 함수를 이용하여 해결하였다.
