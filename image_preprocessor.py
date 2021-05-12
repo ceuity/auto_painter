@@ -13,7 +13,7 @@ def denormalize(input_image):
     return input_image.astype(np.uint8)
 
 def load_image(image_file):
-    image = tf.image.decode_image(image_file, channel=3, expand_animations=False)
+    image = tf.image.decode_image(image_file, channels=3, expand_animations=False)
     image = tf.cast(image, tf.float32)
 
     return image
