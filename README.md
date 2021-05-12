@@ -3,8 +3,10 @@
 - [Auto-painter: Cartoon Image Generation from Sketch by Using Conditional Generative Adversarial Networks](https://arxiv.org/abs/1705.01908)
 
 ## Timeline
+
 - 2021-04-15 : 프로젝트 시작
 - 2021-04-18 : 모델 구현 완료 및 학습 시작
+- 2021-05-11 : 300epochs 학습 완료
 
 ## Abstract
 
@@ -55,9 +57,11 @@
 ## Experimental Studies
 
 - Dataset
-    - 512x512 pixel Minions 1100 pictures
-    - 512x512 pixel Japanimation 60000 pictures
-    - Generate sketch image using XDoG filter
+    - 512x512 pixel Japanimation about 20000 pictures
+
+## Result
+
+![result.gif](./images/result.gif)
 
 ## 문제점들
 
