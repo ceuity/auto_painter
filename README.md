@@ -4,6 +4,7 @@
 
 ## Timeline
 - 2021-04-15 : 프로젝트 시작
+- 2021-04-18 : 모델 구현 완료 및 학습 시작
 
 ## Abstract
 
@@ -60,4 +61,9 @@
 
 ## 문제점들
 
-- sketch와 colored 이미지의 위치가 바뀌는 경우가 있어서 이미지를 불러올 때 position을 argument로 하여 위치를 지정할 수 있게 했었는데 [tf.Dataset.map](http://tf.Dataset.map) 함수를 적용할 때 arguement를 지정할 수 없어서 map 함수에 lambda 식과 tf.py_function 함수를 이용하여 해결하였다.
+- sketch와 colored 이미지의 위치가 바뀌는 경우가 있어서 이미지를 불러올 때 position을 argument로 하여 위치를 지정할 수 있게 했었는데 tf.Dataset.map함수를 적용할 때 arguement를 지정할 수 없어서 map 함수에 lambda 식과 tf.py_function 함수를 이용하여 해결하였다.
+    - tf.Dataset object에서 데이터를 가져오지 못하는 문제가 발생하여 직접 position을 수정하게 해주었다.
+- 논문에선 VGG의 4번째 layer를 이용해 feature를 추출하여 loss를 계산하는데 모델에서 특정 레이어까지의 결과만 가져오는 방법을 모르겠다.
+    - 구글링으로 해결
+- 논문 저자의 Github에 있는 Demo 프로그램을 실행시켜 직접 확인해봤는데 색 정보를 제공하지 않는 일반 sketch2colored 변환은 생각보다 잘 되지 않았다. 내가 학습중인 모델은 학습 시간이 너무 오래 걸려서 아직 확인해보진 못했지만 아마 비슷할 것으로 예상된다.
+- 학습 시간이 1epoch에 30분이나 걸리는 데다가 메모리도 모자라서 연속으로 10epoch 이상 훈련하면 OOM으로 학습이 중단되고, 사용하지 않을 때만 학습중이라서 프로젝트 진행이 늦어지고 있다.
