@@ -25,8 +25,8 @@ def resize(input_image, height, width):
 
 def preprocess(src, width, height):
     input_image = load_image(src)
-	if not (input_image.shape[0] == height and input_image.shape[1] == width):
-    	input_image = resize(input_image, height, width)
+    if not (input_image.shape[0] == height and input_image.shape[1] == width):
+        input_image = resize(input_image, height, width)
     input_image = normalize(input_image)
 
     return input_image
