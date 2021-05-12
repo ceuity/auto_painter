@@ -1,7 +1,7 @@
 import tensorflow as tf
 from image_preprocessor import denormalize
 
-def load_pix2pix_model():
+def load_auto_painter_model():
 	generator = tf.keras.models.load_model('./model/auto_painter_model.h5')
 
 	return generator

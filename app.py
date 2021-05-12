@@ -7,9 +7,11 @@ from PIL import Image
 import numpy as np
 
 from image_preprocessor import preprocess, denormalize
-from pix2pix import load_pix2pix_model, generate_image
+from auto_painter import load_auto_painter_model, generate_image
 
-model = load_pix2pix_model()
+os.environ["CUDA_VISIBLE_DEVICES"]="-1"
+
+model = load_auto_painter_model()
 app = Flask(__name__, template_folder="./templates/",
 			static_url_path="/images", static_folder="images")
 
