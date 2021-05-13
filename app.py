@@ -9,6 +9,7 @@ import numpy as np
 from image_preprocessor import preprocess, denormalize
 from auto_painter import load_auto_painter_model, generate_image
 
+# If you want to use GPU, Comment out this line.
 os.environ["CUDA_VISIBLE_DEVICES"]="-1"
 
 model = load_auto_painter_model()
