@@ -2,6 +2,9 @@
 
 - [Auto-painter: Cartoon Image Generation from Sketch by Using Conditional Generative Adversarial Networks](https://arxiv.org/abs/1705.01908)
 
+## Demo
+[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://main-auto-painter-ceuity.endpoint.ainize.ai/)
+
 ## Timeline
 
 - 2021-04-15 : 프로젝트 시작
