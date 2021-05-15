@@ -66,9 +66,9 @@
 
 ## Todo-list
 
-- [ ]  index templates 수정
-    - [ ]  샘플 이미지 수정
-    - [ ]  Input image size 수정
+- [x]  index templates 수정
+    - [x]  샘플 이미지 수정
+    - [x]  Input image size 수정
 - [ ]  AWS or GCP 이용하여 배포
 - [ ]  채색된 이미지 스케치 이미지로 바꾸는 기능
 - [ ]  방문자 카운터
