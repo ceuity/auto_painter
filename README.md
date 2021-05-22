@@ -73,11 +73,10 @@
 - [x]  index templates 수정
     - [x]  샘플 이미지 수정
     - [x]  Input image size 수정
-- [ ]  AWS or GCP 이용하여 배포
-- [ ]  채색된 이미지 스케치 이미지로 바꾸는 기능
+- [ ]  AWS or GCP 이용하여 배포 -> 무료 티어에서 불가
+- [ ]  채색된 이미지 스케치 이미지로 바꾸는 기능 -> Anime2sketch 이용해볼 예정
 - [ ]  방문자 카운터
-- [ ]  입력 크기 이미지로 출력
-- [ ]  모델 고도화
+- [ ]  입력 크기 이미지로 출력 -> waifu2x 사용하여 Upscaling? or SRGAN
 - [ ]  이미지 URL로 입력 받기
 
 ## 문제점들
