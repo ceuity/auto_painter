@@ -69,7 +69,7 @@
 
 ![result.gif](./images/result.gif)
 
-- 300 Epoch 학습 
+- 300 Epoch 학습 후 결과
 
 ![images02.png](./images/images02.png)
 ![images03.png](./images/images03.png)
