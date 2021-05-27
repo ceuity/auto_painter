@@ -66,9 +66,11 @@
 
 ## Result
 - Epoch에 따른 학습 과정 시각화
+
 ![result.gif](./images/result.gif)
 
 - 300 Epoch 학습 
+
 ![images02.png](./images/images02.png)
 ![images03.png](./images/images03.png)
 ![images04.png](./images/images04.png)
@@ -80,7 +82,7 @@
 - [x]  index templates 수정
     - [x]  샘플 이미지 수정
     - [x]  Input image size 수정
-- [ ]  AWS or GCP 이용하여 배포 -> 무료 티어에서 불가
+- [x]  AWS or GCP 이용하여 배포 -> 무료 티어에서 불가
 - [ ]  채색된 이미지 스케치 이미지로 바꾸는 기능 -> Anime2sketch 이용해볼 예정
 - [ ]  방문자 카운터
 - [ ]  입력 크기 이미지로 출력 -> waifu2x 사용하여 Upscaling? or SRGAN
