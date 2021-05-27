@@ -65,8 +65,15 @@
     - 512x512 pixel Japanimation about 20000 pictures
 
 ## Result
-
+- Epoch에 따른 학습 과정 시각화
 ![result.gif](./images/result.gif)
+
+- 300 Epoch 학습 
+![images02.png](./images/images02.png)
+![images03.png](./images/images03.png)
+![images04.png](./images/images04.png)
+![images05.png](./images/images05.png)
+![images06.png](./images/images06.png)
 
 ## Todo-list
 
