@@ -1,7 +1,7 @@
 # Auto-Painter
-
+- GAN을 이용한 스케치 자동 채색 서비스
 - [Auto-painter: Cartoon Image Generation from Sketch by Using Conditional Generative Adversarial Networks](https://arxiv.org/abs/1705.01908)
-- pix2pix의 모델의 부족한 성능을 향상시키기 위해 진행한 프로젝트
+- pix2pix의 모델의 부족한 성능을 향상시키기 위해 진행
 
 ## Demo
 [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://main-auto-painter-ceuity.endpoint.ainize.ai/)
