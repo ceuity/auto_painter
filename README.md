@@ -89,7 +89,7 @@
 - [ ]  입력 크기 이미지로 출력 -> waifu2x 사용하여 Upscaling? or SRGAN
 - [ ]  이미지 URL로 입력 받기
 
-## 
+## 어려웠던 점
 
 - sketch와 colored 이미지의 위치가 바뀌는 경우가 있어서 이미지를 불러올 때 position을 argument로 하여 위치를 지정할 수 있게 했었는데 tf.Dataset.map함수를 적용할 때 arguement를 지정할 수 없어서 map 함수에 lambda 식과 tf.py_function 함수를 이용하여 해결하였다.
     - tf.Dataset object에서 데이터를 가져오지 못하는 문제가 발생하여 직접 position을 수정하게 해주었다.
